@@ -1,0 +1,15 @@
+- uasename: test01
+  password: '1111'
+  title: 测试比对样品 - 稿件管理
+
+- uasename: test02
+  password: '1111'
+  title: 测试比对样品 - 登录
+
+- uasename: grwgwe
+  password: '1111'
+  title: 测试比对样品 - 登录
+
+- uasename: test01
+  password: fewfeq
+  title: 测试比对样品 - 登录

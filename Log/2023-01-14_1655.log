@@ -1,0 +1,5 @@
+2023-01-14 16:55:41,496 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用开始】
+2023-01-14 16:55:41,500 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【login_api】接口请求数据：{'method': 'post', 'url': '/user-flogin.html', 'headers': {'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'}, 'data': {'account': '${username}', 'password': '${password}', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '${verifyRand}', 'keepLogin': 0, 'captcha': ''}}】
+2023-01-14 16:55:41,500 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-14 16:55:41,500 - baseAutoHttp.py[33] - INFO : 接口的请求地址：/user-flogin.html
+2023-01-14 16:55:41,500 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'account': '${username}', 'password': '${password}', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '${verifyRand}', 'keepLogin': 0, 'captcha': ''}

@@ -1,0 +1,18 @@
+2023-01-14 16:56:09,102 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用开始】
+2023-01-14 16:56:09,106 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【login_api】接口请求数据：{'method': 'post', 'url': '/user-flogin.html', 'headers': {'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'}, 'data': {'account': '${username}', 'password': '${password}', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '${verifyRand}', 'keepLogin': 0, 'captcha': ''}}】
+2023-01-14 16:56:09,106 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-14 16:56:09,106 - baseAutoHttp.py[33] - INFO : 接口的请求地址：/user-flogin.html
+2023-01-14 16:56:09,106 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'account': '${username}', 'password': '${password}', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '${verifyRand}', 'keepLogin': 0, 'captcha': ''}
+2023-01-14 16:56:09,109 - baseAutoHttp.py[50] - ERROR : 接口请求失败! ：Traceback (most recent call last):
+  File "E:\PyCharm2017\TestFramework_demo\Base\baseAutoHttp.py", line 43, in request_base
+    res = ApiBase.session.request(**yaml_data, **kwargs)
+  File "E:\PyCharm2017\dome1\venv\lib\site-packages\requests\sessions.py", line 573, in request
+    prep = self.prepare_request(req)
+  File "E:\PyCharm2017\dome1\venv\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "E:\PyCharm2017\dome1\venv\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "E:\PyCharm2017\dome1\venv\lib\site-packages\requests\models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '/user-flogin.html': No scheme supplied. Perhaps you meant http:///user-flogin.html?
+

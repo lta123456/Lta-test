@@ -1,0 +1,29 @@
+home_api:
+  method: get
+  url: /web/guest/home
+  headers:
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+
+
+login_api:
+  method: post
+  url: /web/guest/home
+  headers:
+    Content-Type: application/x-www-form-urlencoded
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33
+  params:
+    p_p_id: '58'
+    p_p_lifecycle: '1'
+    p_p_state: 'normal'
+    p_p_mode: 'view'
+    p_p_col_id: 'column-1'
+    p_p_col_count: '1'
+    saveLastPath: '0'
+    _58_struts_action: '/login/view'
+    _58_cmd: 'update'
+  data:
+    _58_redirect: ''
+    _58_login: '${_58_login}'
+    _58_password: '${_58_password}'
+
+

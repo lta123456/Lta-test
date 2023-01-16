@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.463" timestamp="2022-08-24T21:07:34.091208" hostname="LAPTOP-3QQQGHI8"><testcase classname="TestSuits.Project2.test_case01.TestCase" name="test_case01" time="0.001"><failure message="assert False">self = &lt;TestSuits.Project2.test_case01.TestCase object at 0x0000020DDB81A020&gt;
+
+    def test_case01(self):
+        '''测试用例一'''
+        print('-------测试用例一-------')
+&gt;       assert False
+E       assert False
+
+..\TestSuits\Project2\test_case01.py:8: AssertionError</failure></testcase></testsuite></testsuites>

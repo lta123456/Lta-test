@@ -1,0 +1,21 @@
+- name: test1
+  age: "18"
+  student_number: "888888888882"
+  password: "123"
+- name: test2
+  age: "18"
+  student_number: "888888888883"
+  password: "123"
+- name: test3
+  age: "18"
+  student_number: "888888888884"
+  password: "123"
+- name: test4
+  age: "18"
+  student_number: "888888888885"
+  password: "123"
+- name: test5
+  age: "18"
+  student_number: "888888888886"
+  password: "123"
+

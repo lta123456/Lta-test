@@ -1,0 +1,7 @@
+login:
+  username_input: ['name', '_58_login']
+  password_input: ['name', '_58_password']
+  login_btn: ['xpath', './/input[@type="submit"]']
+  assert_login_welcome: ['xpath', './/h2[@class="user-greeting"]/span']
+  login_out_btn: ['xpath', './/div[@class="lfr-dock-list-container"]/ul/li/a']
+  login_error: ['xpath', './/div[@class="portlet-content-container"]/div/form/span']

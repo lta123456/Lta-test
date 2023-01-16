@@ -1,0 +1,11 @@
+TestSuits/chandao/p01_http_cd/test_http_cd.py::TestDashboardPage:
+  test_add_backlog[case_data0-\u4e09\u7ea7\u4f18\u5148\u7ea7]: null
+  test_add_backlog[case_data1-\u4e8c\u7ea7\u4f18\u5148\u7ea7]: null
+  test_add_backlog[case_data2-\u4e00\u7ea7\u4f18\u5148\u7ea7]: null
+TestSuits/chandao/p01_http_cd/test_http_cd.py::TestFF:
+  test_aaa: null
+  test_bbb: null
+TestSuits/chandao/p01_http_cd/test_http_cd.py::TestLogin:
+  test_login[case_data0]: null
+  test_login[case_data1]: null
+  test_login[case_data2]: null

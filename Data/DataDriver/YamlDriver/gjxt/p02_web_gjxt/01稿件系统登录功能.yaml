@@ -1,0 +1,16 @@
+# encoding:utf-8
+- username: test01
+  password: "1111"
+  flag: '1'
+
+- username: test02
+  password: "1111"
+  flag: '1'
+
+- username: feawfe
+  password: "1111"
+  flag: '2'
+
+- username: test01
+  password: feasfas
+  flag: '3'

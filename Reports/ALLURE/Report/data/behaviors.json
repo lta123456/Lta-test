@@ -1,0 +1,133 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "禅道系统",
+    "children" : [ {
+      "name" : "登录模块",
+      "children" : [ {
+        "name" : "登录接口",
+        "children" : [ {
+          "name" : "test_login[case_data0]",
+          "uid" : "1cdaedd351f2d99f",
+          "parentUid" : "b24979505c6152a48afaf0657518557a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673876222438,
+            "stop" : 1673876223037,
+            "duration" : 599
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'demo', 'password': '123456', 'assert_data': {'result': 'success', 'locate': '/'}}" ]
+        }, {
+          "name" : "test_login[case_data1]",
+          "uid" : "60c66ab70373a07d",
+          "parentUid" : "b24979505c6152a48afaf0657518557a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673876223041,
+            "stop" : 1673876223606,
+            "duration" : 565
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'demo', 'password': '123456', 'assert_data': {'result': 'success', 'locate': '/'}}" ]
+        }, {
+          "name" : "test_login[case_data2]",
+          "uid" : "bd4dcae1cdd4d375",
+          "parentUid" : "b24979505c6152a48afaf0657518557a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673876223610,
+            "stop" : 1673876223832,
+            "duration" : 222
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'demo', 'password': '1234458556', 'assert_data': {'result': 'fail', 'message': '登录失败，请检查您的用户名或密码是否填写正确。'}}" ]
+        } ],
+        "uid" : "b24979505c6152a48afaf0657518557a"
+      } ],
+      "uid" : "ebeca909201e1ca95b0cb4846b6e9a0d"
+    }, {
+      "name" : "仪表盘模块",
+      "children" : [ {
+        "name" : "添加待办接口",
+        "children" : [ {
+          "name" : "三级优先级",
+          "uid" : "378b7020023de9bd",
+          "parentUid" : "dbeabefedc388da35f3977e4839c2bef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673876224193,
+            "stop" : 1673876224444,
+            "duration" : 251
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'date': datetime.date(2023, 1, 5), 'priorityL': 3, 'name': '名称', 'start_time': '12:00', 'end_time': '13:00'}", "'三级优先级'" ]
+        }, {
+          "name" : "二级优先级",
+          "uid" : "79e4efdae1a709a7",
+          "parentUid" : "dbeabefedc388da35f3977e4839c2bef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673876224967,
+            "stop" : 1673876225222,
+            "duration" : 255
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'date': datetime.date(2023, 1, 6), 'priorityL': 2, 'name': '名称2', 'start_time': '12:00', 'end_time': '13:00'}", "'二级优先级'" ]
+        }, {
+          "name" : "一级优先级",
+          "uid" : "602392ca8b0e0cde",
+          "parentUid" : "dbeabefedc388da35f3977e4839c2bef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673876225764,
+            "stop" : 1673876226027,
+            "duration" : 263
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'date': datetime.date(2023, 1, 7), 'priorityL': 1, 'name': '名称3', 'start_time': '12:00', 'end_time': '13:00'}", "'一级优先级'" ]
+        } ],
+        "uid" : "dbeabefedc388da35f3977e4839c2bef"
+      } ],
+      "uid" : "34892dd953fb84b0badaf3cef914a8ae"
+    }, {
+      "name" : "假代码",
+      "children" : [ {
+        "name" : "test_aaa",
+        "uid" : "d287efe8c1d8912b",
+        "parentUid" : "838d8a105159c1035681b31df22e1f76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673876226593,
+          "stop" : 1673876226593,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_bbb",
+        "uid" : "6d4af8e83a009de",
+        "parentUid" : "838d8a105159c1035681b31df22e1f76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673876226893,
+          "stop" : 1673876226893,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "838d8a105159c1035681b31df22e1f76"
+    } ],
+    "uid" : "35046d4d729f90ae4804b44a91fb94c0"
+  } ]
+}

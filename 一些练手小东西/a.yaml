@@ -1,0 +1,5 @@
+a: 1
+b:
+  - 2
+  - 3
+c: !include E:\PyCharm2017\TestFramework_demo\Data\DataDriver\YamlDriver\chandao\p01_http_cd\b.yaml

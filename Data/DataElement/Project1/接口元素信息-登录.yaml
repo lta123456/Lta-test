@@ -1,0 +1,32 @@
+login_page: # µÇÂ¼Ò³
+  method: get
+  url: /web/guest/home
+  headers:
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77"
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6"
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+
+login_api: # µÇÂ¼½Ó¿Ú
+  method: post
+  url: /web/guest/home
+  headers:
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+    "Accept-Encoding": "gzip, deflate, br"
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77"
+  params:
+    "p_p_id": "58"
+    "p_p_lifecycle": "1"
+    "p_p_state": "normal"
+    "p_p_mode": "view"
+    "p_p_col_id": "column-1"
+    "p_p_col_count": "1"
+    "saveLastPath": "0"
+    "_58_struts_action": "/login/view"
+    "_58_cmd": "update"
+
+  data:
+    "_58_redirect": ""
+    "_58_login": "${user}"
+    "_58_password": "${password}"
+

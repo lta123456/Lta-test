@@ -1,0 +1,31 @@
+[ {
+  "uid" : "7c7b9bc325c96c4",
+  "name" : "test_add_backlog[case_data0]",
+  "time" : {
+    "start" : 1673416470391,
+    "stop" : 1673416470644,
+    "duration" : 253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f2ea8a5fd4d263b",
+  "name" : "test_add_backlog[case_data1]",
+  "time" : {
+    "start" : 1673416471291,
+    "stop" : 1673416471540,
+    "duration" : 249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "598bc49b900c20e9",
+  "name" : "test_add_backlog[case_data2]",
+  "time" : {
+    "start" : 1673416472097,
+    "stop" : 1673416472335,
+    "duration" : 238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

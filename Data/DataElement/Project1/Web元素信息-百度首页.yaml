@@ -1,0 +1,12 @@
+首页:
+    输入框: ["id", "${id}"]
+    搜索按钮: ["id", "su"]
+    新闻按钮: ["xpath", ".//a[text()='新闻']"]
+    下拉框: ["id", "s1Id"]
+    下拉框值1: ["id", "id1"]
+    iframe1: ["xpath", ".//body/iframe"]
+    元素: ["xpath", ".//a[@href='framesTestWithTitle.htm']"]
+    点击按钮: ["xpath", ".//input[2]"]
+    iframe里按钮: ["xpath", ".//a[text()='Link Test']"]
+    新闻页面_网页按钮: ["xpath", ".//a[text()='网页']"]
+

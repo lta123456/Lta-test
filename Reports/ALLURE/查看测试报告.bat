@@ -1,0 +1,1 @@
+allure open Report/

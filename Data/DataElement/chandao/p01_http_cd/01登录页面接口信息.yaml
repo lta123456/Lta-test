@@ -1,0 +1,43 @@
+login_api:
+  method: post
+  url: /user-login.html
+  headers:
+    'X-Requested-With': 'XMLHttpRequest'
+    'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'
+  data:
+    'account': '${username}'
+    'password': '${password}'
+    'passwordStrength': 0
+    'referer': '/'
+    'verifyRand': '${verifyRand}'
+    'keepLogin': 0
+    'captcha': ''
+
+out_api:
+  method: get
+  url: user-logout.html
+  headers:
+    Host: 'zentaomax.demo.zentao.net'
+    Connection: 'keep-alive'
+    Upgrade-Insecure-Requests: '1'
+    User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54'
+    Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    Referer: 'http://zentaomax.demo.zentao.net/my.html'
+    Accept-Encoding: 'gzip, deflate'
+    Accept-Language: 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'
+
+get_refreshRandom:
+  method: get
+  url: /user-refreshRandom.html
+  headers:
+    User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54'
+    X-Requested-With: 'XMLHttpRequest'
+    Referer: 'http://zentaomax.demo.zentao.net/user-login.html'
+    Accept-Encoding: 'gzip, deflate'
+    Accept-Language: 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'
+
+
+
+
+
+
