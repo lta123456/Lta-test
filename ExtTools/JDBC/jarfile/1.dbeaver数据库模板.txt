@@ -1,0 +1,75 @@
+# mysql
+# 类名： com.mysql.cj.jdbc.Driver类名：
+# url模板:  jdbc:mysql://10.20.31.132:3306/?serverTimezone=Asia/Shanghai&useSSL=false
+# 添加文件: mysql-connector-java-8.0.17.jar
+
+# oracle
+# 类名：  oracle.jdbc.OracleDriver
+# url模板:  jdbc:oracle:thin:@localhost:1521:orcl
+# 添加文件: ojdbc6-11.2.0.3.jar
+
+# sqlserver
+# 类名：  com.microsoft.sqlserver.jdbc.SQLServerDriver
+# url模板:  jdbc:sqlserver://localhost:1433;databaseName=db
+# 添加文件: sqljdbc4-4.0.jar
+
+# postgresql
+# 类名：  org.postgresql.Driver
+# url模板:  jdbc:postgresql://localhost:5432/db
+# 添加文件: 没下载
+
+# informix
+# 类名： com.informix.jdbc.IfxDriver
+# url模板:  jdbc:informix-sqli://172.168.2.32:9088/test:informixserver=ol_informix1170
+# 添加文件: ifxjdbc.jar
+
+# sybase
+# 类名： com.sybase.jdbc3.jdbc.SybDriver
+# url模板:  jdbc:sybase:Tds:172.168.2.28:5000/sybase
+# 添加文件: lib/jconn3-1.0.0-SNAPSHOT.jar
+
+# sqlite
+# 类名： org.sqlite.JDBC
+# url模板:  jdbc:sqlite:F:\\xxxdatabase.db
+# 添加文件: sqlite-jdbc-3.7.2.jar
+
+# access
+# 类名： net.ucanaccess.jdbc.UcanaccessDriver
+# url模板:  jdbc:ucanaccess://D:/ideaproject/Dds/Dds/jsonconf/dbtest.mdb
+# 添加文件: 后台没下载
+
+# 达梦
+# 类名： dm.jdbc.driver.DmDriver
+# url模板:  jdbc:dm://10.20.31.135:5236/zfdb
+# 添加文件: Dm7JdbcDriver16.jar
+
+# 人大金仓
+# 类名： com.kingbase.Driver
+# url模板:  jdbc:kingbase://10.20.27.50:54321/KRMSTEST
+# 添加文件: kingbasejdbc4.jar
+
+
+# 神通
+# 类名： com.oscar.Driver
+# url模板:  jdbc:oscar://10.20.27.50:2003/
+# 添加文件: oscarJDBC.jar
+
+# 南大通用
+# 类名： com.gbase.jdbc.Driver
+# url模板:  jdbc:gbase://192.168.154.132:5258/test
+# 添加文件: gbase-connector-java-8.3.81.53-build55.2.1-bin.jar
+
+# 瀚高
+# 类名： com.highgo.jdbc.Driver
+# url模板:  jdbc:highgo://10.20.27.50:5866/highgo
+# 添加文件: hgdb-4.0-jdbc41.jar
+
+# 优炫
+# 类名： com.uxsino.uxdb.Driver
+# url模板:  jdbc:uxdb://10.20.31.104:5434/uxdb
+# 添加文件: uxdbjdbc-4.2.jar
+
+# db2
+# 类名：  com.ibm.db2.jcc.DB2Driver)
+# url模板:  jdbc:db2://localhost:50000/db
+# 添加文件: db2jcc4.jar

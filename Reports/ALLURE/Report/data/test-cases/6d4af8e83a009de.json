@@ -1,0 +1,93 @@
+{
+  "uid" : "6d4af8e83a009de",
+  "name" : "test_bbb",
+  "fullName" : "TestSuits.chandao.p01_http_cd.test_http_cd.TestFF#test_bbb",
+  "historyId" : "70ae631ff9949deb264ffbec5e4fa1ca",
+  "time" : {
+    "start" : 1673876226893,
+    "stop" : 1673876226893,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1673876222274,
+      "stop" : 1673876222438,
+      "duration" : 164
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d27492212eb2e2",
+      "name" : "stdout",
+      "source" : "d27492212eb2e2.txt",
+      "type" : "text/plain",
+      "size" : 8
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "假代码"
+  }, {
+    "name" : "epic",
+    "value" : "禅道系统"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuits.chandao.p01_http_cd"
+  }, {
+    "name" : "suite",
+    "value" : "test_http_cd"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFF"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-3QQQGHI8"
+  }, {
+    "name" : "thread",
+    "value" : "20672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuits.chandao.p01_http_cd.test_http_cd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d4af8e83a009de.json",
+  "parameterValues" : [ ]
+}

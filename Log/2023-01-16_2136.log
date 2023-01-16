@@ -1,0 +1,160 @@
+2023-01-16 21:36:12,313 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用开始】
+2023-01-16 21:36:12,317 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【get_refreshRandom】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-refreshRandom.html', 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:12,317 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:12,318 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-refreshRandom.html
+2023-01-16 21:36:12,511 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.190552
+2023-01-16 21:36:12,511 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用结束】
+2023-01-16 21:36:12,511 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用开始】
+2023-01-16 21:36:12,515 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【login_api】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/user-login.html', 'headers': {'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'}, 'data': {'account': 'demo', 'password': 'e8856626af21d50496cd6880a454e307', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1460972859', 'keepLogin': 0, 'captcha': ''}}】
+2023-01-16 21:36:12,515 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-16 21:36:12,515 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-login.html
+2023-01-16 21:36:12,515 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'account': 'demo', 'password': 'e8856626af21d50496cd6880a454e307', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1460972859', 'keepLogin': 0, 'captcha': ''}
+2023-01-16 21:36:12,746 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.230645
+2023-01-16 21:36:12,747 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用结束】
+2023-01-16 21:36:12,747 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用开始】
+2023-01-16 21:36:12,750 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【out_api】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-logout.html', 'headers': {'Host': 'zentaomax.demo.zentao.net', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Referer': 'http://zentaomax.demo.zentao.net/my.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:12,750 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:12,750 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-logout.html
+2023-01-16 21:36:13,054 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.076334
+2023-01-16 21:36:13,054 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用结束】
+2023-01-16 21:36:13,054 - api_login_page.py[56] - INFO : 断言成功, 断言信息：{'result': 'success', 'locate': '/'}
+2023-01-16 21:36:13,054 - test_http_cd.py[25] - INFO : 成功
+2023-01-16 21:36:13,059 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用开始】
+2023-01-16 21:36:13,063 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【get_refreshRandom】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-refreshRandom.html', 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:13,063 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:13,063 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-refreshRandom.html
+2023-01-16 21:36:13,107 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.044245
+2023-01-16 21:36:13,107 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用结束】
+2023-01-16 21:36:13,107 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用开始】
+2023-01-16 21:36:13,111 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【login_api】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/user-login.html', 'headers': {'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'}, 'data': {'account': 'demo', 'password': 'c05b3e3486540831be1a40a7dd422410', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1125894415', 'keepLogin': 0, 'captcha': ''}}】
+2023-01-16 21:36:13,111 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-16 21:36:13,111 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-login.html
+2023-01-16 21:36:13,111 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'account': 'demo', 'password': 'c05b3e3486540831be1a40a7dd422410', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1125894415', 'keepLogin': 0, 'captcha': ''}
+2023-01-16 21:36:13,266 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.153418
+2023-01-16 21:36:13,266 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用结束】
+2023-01-16 21:36:13,266 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用开始】
+2023-01-16 21:36:13,270 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【out_api】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-logout.html', 'headers': {'Host': 'zentaomax.demo.zentao.net', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Referer': 'http://zentaomax.demo.zentao.net/my.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:13,270 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:13,270 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-logout.html
+2023-01-16 21:36:13,545 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.058429
+2023-01-16 21:36:13,545 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用结束】
+2023-01-16 21:36:13,545 - api_login_page.py[56] - INFO : 断言成功, 断言信息：{'result': 'success', 'locate': '/'}
+2023-01-16 21:36:13,545 - test_http_cd.py[25] - INFO : 成功
+2023-01-16 21:36:13,549 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用开始】
+2023-01-16 21:36:13,552 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【get_refreshRandom】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-refreshRandom.html', 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:13,552 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:13,552 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-refreshRandom.html
+2023-01-16 21:36:13,597 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.042935
+2023-01-16 21:36:13,597 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用结束】
+2023-01-16 21:36:13,597 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用开始】
+2023-01-16 21:36:13,600 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【login_api】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/user-login.html', 'headers': {'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'}, 'data': {'account': 'demo', 'password': '66c0734a3d5a9ff17788f4f74b85ca4c', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1214692882', 'keepLogin': 0, 'captcha': ''}}】
+2023-01-16 21:36:13,600 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-16 21:36:13,600 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-login.html
+2023-01-16 21:36:13,600 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'account': 'demo', 'password': '66c0734a3d5a9ff17788f4f74b85ca4c', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1214692882', 'keepLogin': 0, 'captcha': ''}
+2023-01-16 21:36:13,664 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.062757
+2023-01-16 21:36:13,665 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用结束】
+2023-01-16 21:36:13,665 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用开始】
+2023-01-16 21:36:13,668 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【out_api】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-logout.html', 'headers': {'Host': 'zentaomax.demo.zentao.net', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Referer': 'http://zentaomax.demo.zentao.net/my.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:13,668 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:13,668 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-logout.html
+2023-01-16 21:36:13,780 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.056469
+2023-01-16 21:36:13,780 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用结束】
+2023-01-16 21:36:13,780 - api_login_page.py[56] - INFO : 断言成功, 断言信息：{'result': 'fail', 'message': '登录失败，请检查您的用户名或密码是否填写正确。'}
+2023-01-16 21:36:13,780 - test_http_cd.py[25] - INFO : 成功
+2023-01-16 21:36:13,784 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用开始】
+2023-01-16 21:36:13,788 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【get_refreshRandom】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-refreshRandom.html', 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:13,788 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:13,788 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-refreshRandom.html
+2023-01-16 21:36:13,831 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.041823
+2023-01-16 21:36:13,831 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用结束】
+2023-01-16 21:36:13,831 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用开始】
+2023-01-16 21:36:13,835 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【login_api】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/user-login.html', 'headers': {'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'}, 'data': {'account': 'demo', 'password': '8e7e3b5134f9fd530988c4031f679530', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '512756353', 'keepLogin': 0, 'captcha': ''}}】
+2023-01-16 21:36:13,835 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-16 21:36:13,835 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-login.html
+2023-01-16 21:36:13,835 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'account': 'demo', 'password': '8e7e3b5134f9fd530988c4031f679530', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '512756353', 'keepLogin': 0, 'captcha': ''}
+2023-01-16 21:36:14,072 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.23674
+2023-01-16 21:36:14,072 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用结束】
+2023-01-16 21:36:14,074 - baseAutoHttp.py[26] - INFO : 【03仪表盘页面接口信息.yaml : add_backlog 接口调用开始】
+2023-01-16 21:36:14,077 - baseAutoHttp.py[31] - INFO : 【获取【03仪表盘页面接口信息.yaml】文件【add_backlog】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/todo-create-today--block.html', 'headers': {'Accept': 'application/json, text/javascript, */*; q=0.01', 'X-Requested-With': 'XMLHttpRequest', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Origin': 'http://zentaomax.demo.zentao.net', 'Referer': 'http://zentaomax.demo.zentao.net/my.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}, 'data': {'date': '2023-01-05', 'pri': '3', 'name': '名称', 'begin': '12:00', 'end': '13:00', 'type': 'custom'}}】
+2023-01-16 21:36:14,077 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-16 21:36:14,077 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/todo-create-today--block.html
+2023-01-16 21:36:14,077 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'date': '2023-01-05', 'pri': '3', 'name': '名称', 'begin': '12:00', 'end': '13:00', 'type': 'custom'}
+2023-01-16 21:36:14,300 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.220268
+2023-01-16 21:36:14,300 - baseAutoHttp.py[47] - INFO : 【03仪表盘页面接口信息.yaml : add_backlog 接口调用结束】
+2023-01-16 21:36:14,302 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用开始】
+2023-01-16 21:36:14,305 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【out_api】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-logout.html', 'headers': {'Host': 'zentaomax.demo.zentao.net', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Referer': 'http://zentaomax.demo.zentao.net/my.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:14,305 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:14,305 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-logout.html
+2023-01-16 21:36:14,540 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.057363
+2023-01-16 21:36:14,540 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用结束】
+2023-01-16 21:36:14,544 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用开始】
+2023-01-16 21:36:14,548 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【get_refreshRandom】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-refreshRandom.html', 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:14,548 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:14,548 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-refreshRandom.html
+2023-01-16 21:36:14,591 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.042131
+2023-01-16 21:36:14,591 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用结束】
+2023-01-16 21:36:14,591 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用开始】
+2023-01-16 21:36:14,595 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【login_api】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/user-login.html', 'headers': {'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'}, 'data': {'account': 'demo', 'password': '070989e40e43021729ad189d2a5f4511', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1035218598', 'keepLogin': 0, 'captcha': ''}}】
+2023-01-16 21:36:14,595 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-16 21:36:14,595 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-login.html
+2023-01-16 21:36:14,595 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'account': 'demo', 'password': '070989e40e43021729ad189d2a5f4511', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1035218598', 'keepLogin': 0, 'captcha': ''}
+2023-01-16 21:36:14,813 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.217542
+2023-01-16 21:36:14,813 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用结束】
+2023-01-16 21:36:14,815 - baseAutoHttp.py[26] - INFO : 【03仪表盘页面接口信息.yaml : add_backlog 接口调用开始】
+2023-01-16 21:36:14,817 - baseAutoHttp.py[31] - INFO : 【获取【03仪表盘页面接口信息.yaml】文件【add_backlog】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/todo-create-today--block.html', 'headers': {'Accept': 'application/json, text/javascript, */*; q=0.01', 'X-Requested-With': 'XMLHttpRequest', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Origin': 'http://zentaomax.demo.zentao.net', 'Referer': 'http://zentaomax.demo.zentao.net/my.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}, 'data': {'date': '2023-01-06', 'pri': '2', 'name': '名称2', 'begin': '12:00', 'end': '13:00', 'type': 'custom'}}】
+2023-01-16 21:36:14,817 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-16 21:36:14,817 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/todo-create-today--block.html
+2023-01-16 21:36:14,817 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'date': '2023-01-06', 'pri': '2', 'name': '名称2', 'begin': '12:00', 'end': '13:00', 'type': 'custom'}
+2023-01-16 21:36:15,057 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.237939
+2023-01-16 21:36:15,057 - baseAutoHttp.py[47] - INFO : 【03仪表盘页面接口信息.yaml : add_backlog 接口调用结束】
+2023-01-16 21:36:15,059 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用开始】
+2023-01-16 21:36:15,062 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【out_api】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-logout.html', 'headers': {'Host': 'zentaomax.demo.zentao.net', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Referer': 'http://zentaomax.demo.zentao.net/my.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:15,062 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:15,062 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-logout.html
+2023-01-16 21:36:15,320 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.058144
+2023-01-16 21:36:15,320 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用结束】
+2023-01-16 21:36:15,324 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用开始】
+2023-01-16 21:36:15,328 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【get_refreshRandom】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-refreshRandom.html', 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:15,328 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:15,328 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-refreshRandom.html
+2023-01-16 21:36:15,373 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.044148
+2023-01-16 21:36:15,374 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用结束】
+2023-01-16 21:36:15,374 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用开始】
+2023-01-16 21:36:15,377 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【login_api】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/user-login.html', 'headers': {'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'}, 'data': {'account': 'demo', 'password': '654587be6aa4a4e3b2b9cf1833acbba6', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1342031277', 'keepLogin': 0, 'captcha': ''}}】
+2023-01-16 21:36:15,377 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-16 21:36:15,377 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-login.html
+2023-01-16 21:36:15,378 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'account': 'demo', 'password': '654587be6aa4a4e3b2b9cf1833acbba6', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1342031277', 'keepLogin': 0, 'captcha': ''}
+2023-01-16 21:36:15,563 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.184236
+2023-01-16 21:36:15,563 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用结束】
+2023-01-16 21:36:15,565 - baseAutoHttp.py[26] - INFO : 【03仪表盘页面接口信息.yaml : add_backlog 接口调用开始】
+2023-01-16 21:36:15,566 - baseAutoHttp.py[31] - INFO : 【获取【03仪表盘页面接口信息.yaml】文件【add_backlog】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/todo-create-today--block.html', 'headers': {'Accept': 'application/json, text/javascript, */*; q=0.01', 'X-Requested-With': 'XMLHttpRequest', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Origin': 'http://zentaomax.demo.zentao.net', 'Referer': 'http://zentaomax.demo.zentao.net/my.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}, 'data': {'date': '2023-01-07', 'pri': '1', 'name': '名称3', 'begin': '12:00', 'end': '13:00', 'type': 'custom'}}】
+2023-01-16 21:36:15,567 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-16 21:36:15,567 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/todo-create-today--block.html
+2023-01-16 21:36:15,567 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'date': '2023-01-07', 'pri': '1', 'name': '名称3', 'begin': '12:00', 'end': '13:00', 'type': 'custom'}
+2023-01-16 21:36:15,822 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.253206
+2023-01-16 21:36:15,822 - baseAutoHttp.py[47] - INFO : 【03仪表盘页面接口信息.yaml : add_backlog 接口调用结束】
+2023-01-16 21:36:15,824 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用开始】
+2023-01-16 21:36:15,828 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【out_api】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-logout.html', 'headers': {'Host': 'zentaomax.demo.zentao.net', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Referer': 'http://zentaomax.demo.zentao.net/my.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:15,828 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:15,828 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-logout.html
+2023-01-16 21:36:16,101 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.074971
+2023-01-16 21:36:16,101 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用结束】
+2023-01-16 21:36:16,104 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用开始】
+2023-01-16 21:36:16,108 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【get_refreshRandom】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-refreshRandom.html', 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:16,108 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:16,108 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-refreshRandom.html
+2023-01-16 21:36:16,151 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.041579
+2023-01-16 21:36:16,151 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : get_refreshRandom 接口调用结束】
+2023-01-16 21:36:16,151 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用开始】
+2023-01-16 21:36:16,154 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【login_api】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/user-login.html', 'headers': {'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'}, 'data': {'account': 'demo', 'password': '6782b2eea8983feea4a899af83a2ee11', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1255872906', 'keepLogin': 0, 'captcha': ''}}】
+2023-01-16 21:36:16,154 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-16 21:36:16,154 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-login.html
+2023-01-16 21:36:16,154 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'account': 'demo', 'password': '6782b2eea8983feea4a899af83a2ee11', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '1255872906', 'keepLogin': 0, 'captcha': ''}
+2023-01-16 21:36:16,403 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.247889
+2023-01-16 21:36:16,403 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用结束】
+2023-01-16 21:36:16,404 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用开始】
+2023-01-16 21:36:16,408 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【out_api】接口请求数据：{'method': 'get', 'url': 'http://zentaomax.demo.zentao.net/user-logout.html', 'headers': {'Host': 'zentaomax.demo.zentao.net', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Referer': 'http://zentaomax.demo.zentao.net/my.html', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'}}】
+2023-01-16 21:36:16,408 - baseAutoHttp.py[32] - INFO : 接口的请求方式：get
+2023-01-16 21:36:16,408 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-logout.html
+2023-01-16 21:36:16,686 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.057216
+2023-01-16 21:36:16,686 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : out_api 接口调用结束】

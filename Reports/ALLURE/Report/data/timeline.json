@@ -1,0 +1,117 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-3QQQGHI8",
+    "children" : [ {
+      "name" : "20672-MainThread",
+      "children" : [ {
+        "name" : "二级优先级",
+        "uid" : "79e4efdae1a709a7",
+        "parentUid" : "863d85ebaf1f1e308709ffb5852b76a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673876224967,
+          "stop" : 1673876225222,
+          "duration" : 255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'date': datetime.date(2023, 1, 6), 'priorityL': 2, 'name': '名称2', 'start_time': '12:00', 'end_time': '13:00'}", "'二级优先级'" ]
+      }, {
+        "name" : "test_login[case_data0]",
+        "uid" : "1cdaedd351f2d99f",
+        "parentUid" : "863d85ebaf1f1e308709ffb5852b76a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673876222438,
+          "stop" : 1673876223037,
+          "duration" : 599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'demo', 'password': '123456', 'assert_data': {'result': 'success', 'locate': '/'}}" ]
+      }, {
+        "name" : "一级优先级",
+        "uid" : "602392ca8b0e0cde",
+        "parentUid" : "863d85ebaf1f1e308709ffb5852b76a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673876225764,
+          "stop" : 1673876226027,
+          "duration" : 263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'date': datetime.date(2023, 1, 7), 'priorityL': 1, 'name': '名称3', 'start_time': '12:00', 'end_time': '13:00'}", "'一级优先级'" ]
+      }, {
+        "name" : "test_login[case_data2]",
+        "uid" : "bd4dcae1cdd4d375",
+        "parentUid" : "863d85ebaf1f1e308709ffb5852b76a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673876223610,
+          "stop" : 1673876223832,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'demo', 'password': '1234458556', 'assert_data': {'result': 'fail', 'message': '登录失败，请检查您的用户名或密码是否填写正确。'}}" ]
+      }, {
+        "name" : "test_bbb",
+        "uid" : "6d4af8e83a009de",
+        "parentUid" : "863d85ebaf1f1e308709ffb5852b76a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673876226893,
+          "stop" : 1673876226893,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[case_data1]",
+        "uid" : "60c66ab70373a07d",
+        "parentUid" : "863d85ebaf1f1e308709ffb5852b76a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673876223041,
+          "stop" : 1673876223606,
+          "duration" : 565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'demo', 'password': '123456', 'assert_data': {'result': 'success', 'locate': '/'}}" ]
+      }, {
+        "name" : "三级优先级",
+        "uid" : "378b7020023de9bd",
+        "parentUid" : "863d85ebaf1f1e308709ffb5852b76a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673876224193,
+          "stop" : 1673876224444,
+          "duration" : 251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'date': datetime.date(2023, 1, 5), 'priorityL': 3, 'name': '名称', 'start_time': '12:00', 'end_time': '13:00'}", "'三级优先级'" ]
+      }, {
+        "name" : "test_aaa",
+        "uid" : "d287efe8c1d8912b",
+        "parentUid" : "863d85ebaf1f1e308709ffb5852b76a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1673876226593,
+          "stop" : 1673876226593,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "863d85ebaf1f1e308709ffb5852b76a3"
+    } ],
+    "uid" : "35234e6b4863a7c5e6b6e7686ee0b67e"
+  } ]
+}

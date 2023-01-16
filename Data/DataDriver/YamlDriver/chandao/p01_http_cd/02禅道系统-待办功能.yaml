@@ -1,0 +1,25 @@
+- !!python/tuple
+  - date: 2023-01-05
+    priorityL: 3
+    name: 名称
+    start_time: '12:00'
+    end_time: '13:00'
+  - 三级优先级
+
+- !!python/tuple
+  - date: 2023-01-06
+    priorityL: 2
+    name: 名称2
+    start_time: '12:00'
+    end_time: '13:00'
+  - 二级优先级
+
+
+- !!python/tuple
+  - date: 2023-01-07
+    priorityL: 1
+    name: 名称3
+    start_time: '12:00'
+    end_time: '13:00'
+  - 一级优先级
+

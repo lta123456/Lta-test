@@ -1,0 +1,20 @@
+# 一个数据后面被使用多次，一般定义一个变量去调用的
+# &变量名   定义变量
+# *变量名   使用变量
+#title: &title litaiang
+#data:
+#  title: *title
+#  code: 200
+#data2:
+#  title: *title
+
+info: &username_password
+  username: lta1
+  password: 123456
+data_1:
+  title: 用户名密码登录测试1
+  <<: *username_password
+data_2:
+  title: 用户名密码登录测试2
+  <<: *username_password
+

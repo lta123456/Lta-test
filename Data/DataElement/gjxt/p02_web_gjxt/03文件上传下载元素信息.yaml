@@ -1,0 +1,37 @@
+add_folder: # 新增文件夹
+  file_upload_download_btn: ['xpath', './/div[@id="navigation"]/ul/li[2]/a/span'] # 文件上传下载按钮
+  add_folder_btn: ['xpath', './/form[@name="_20_fm1"]/div/input[@type="button"]'] # 新建文件夹按钮
+  name_input: ['id', '_20_name'] # 文件夹名称输入框
+  content_input: ['id', '_20_description'] # 描述输入框
+  commit_btn: ['xpath', './/form[@name="_20_fm"]/input[@type="submit"]'] # 保存按钮
+  firer_folder_title: ['xpath', './/ul[@class="lfr-component"]/li[2]/a'] # 列表第一个文件夹的名称
+  msg_sucess: ['xpath', './/div[@class="portlet-content-container"]/div/div'] # 操作成功后的提示信息
+  select_input: ['id', '_20_keywords1'] # 查询输入框
+  select_btn: ['xpath', './/form[@name="_20_fm1"]/div/input[@type="submit"]'] # 查询按钮
+
+del_folder: # 删除文件夹
+  file_upload_download_btn: ['xpath', './/li[@class="selected"]/a/span'] # 文件上传下载按钮
+  firer_del_btn: ['xpath', './/ul[@class="lfr-component"]/li[2]/nobr/a[2]'] # 列表第一个文件夹的删除按钮
+  msg_sucess: ['xpath', './/div[@class="portlet-content-container"]/div/div'] # 操作成功后的提示信息
+
+add_file: # 上传文件
+  file_upload_download_btn: ['xpath', './/li[@class="selected"]/a/span'] # 文件上传下载按钮
+  firer_folder_title: ['xpath', './/ul[@class="lfr-component"]/li[2]/a'] # 列表第一个文件夹的名称
+  add_file_btn: ['xpath', './/input[@type="button" and @value="上传文档"]'] # 上传文件按钮
+  upload_file_iframe: ['id', 'dlFileEntryUploadProgress-iframe'] # 上传文件iframe
+  select_file_btn: ['id', '_20_file'] # 选择文件按钮
+  file_title: ['id', '_20_title'] # 文件重命名输入框
+  filespec: ['id', '_20_description'] # 说明输入框
+  upload_file_btn: ['xpath', './/form[@name="_20_fm"]/input[@value="上传文档"]'] # 保存按钮
+  firer_file_name_spec: ['xpath', './/div[@class="results-grid"]/table/tbody/tr/td[@class="col-1"]/a'] # 文件名称与描述信息
+
+download_file: # 下载文件
+  file_upload_download_btn: ['xpath', './/li[@class="selected"]/a/span'] # 文件上传下载按钮
+  firer_folder_title: ['xpath', './/ul[@class="lfr-component"]/li[2]/a'] # 列表第一个文件夹的名称
+  firer_file_name: ['xpath', './/div[@class="results-grid"]/table/tbody/tr/td[@class="col-1"]/a'] # 文件名称
+
+
+
+
+
+

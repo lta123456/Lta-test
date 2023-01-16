@@ -1,0 +1,4 @@
+脚本名称         作用
+dbbase.py     读取数据库
+md5DES.py     md5方式加密
+Thread.py     多线程

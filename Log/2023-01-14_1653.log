@@ -1,0 +1,14 @@
+2023-01-14 16:53:17,648 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用开始】
+2023-01-14 16:53:17,654 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【login_api】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/user-flogin.html', 'headers': {'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'}, 'data': {'account': '${username}', 'password': '${password}', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '${verifyRand}', 'keepLogin': 0, 'captcha': ''}}】
+2023-01-14 16:53:17,654 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-14 16:53:17,654 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/user-flogin.html
+2023-01-14 16:53:17,654 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'account': '${username}', 'password': '${password}', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '${verifyRand}', 'keepLogin': 0, 'captcha': ''}
+2023-01-14 16:53:17,815 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.158618
+2023-01-14 16:53:17,815 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用结束】
+2023-01-14 16:53:45,983 - baseAutoHttp.py[26] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用开始】
+2023-01-14 16:53:45,986 - baseAutoHttp.py[31] - INFO : 【获取【01登录页面接口信息.yaml】文件【login_api】接口请求数据：{'method': 'post', 'url': 'http://zentaomax.demo.zentao.net/', 'headers': {'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentaomax.demo.zentao.net/user-login.html'}, 'data': {'account': '${username}', 'password': '${password}', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '${verifyRand}', 'keepLogin': 0, 'captcha': ''}}】
+2023-01-14 16:53:45,986 - baseAutoHttp.py[32] - INFO : 接口的请求方式：post
+2023-01-14 16:53:45,986 - baseAutoHttp.py[33] - INFO : 接口的请求地址：http://zentaomax.demo.zentao.net/
+2023-01-14 16:53:45,986 - baseAutoHttp.py[35] - INFO : 接口的请求体：{'account': '${username}', 'password': '${password}', 'passwordStrength': 0, 'referer': '/', 'verifyRand': '${verifyRand}', 'keepLogin': 0, 'captcha': ''}
+2023-01-14 16:53:46,067 - baseAutoHttp.py[44] - INFO : 接口的响应时间：0.078188
+2023-01-14 16:53:46,068 - baseAutoHttp.py[47] - INFO : 【01登录页面接口信息.yaml : login_api 接口调用结束】

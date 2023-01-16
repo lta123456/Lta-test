@@ -1,0 +1,4 @@
+login: # 登录页面的定位信息
+  用户名输入框: ["name", "_58_login"]
+  密码输入框: ["id", "_58_password"]
+  登录按钮: ["xpath", ".//input[@value='登录']"]

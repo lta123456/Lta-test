@@ -1,0 +1,24 @@
+- student_number: '888888888881'
+  login_password: '123'
+  new_password: '159357'
+  repeat_password: '159357'
+  assert_database_data: '159357'
+
+- student_number: '888888888882'
+  login_password: '123'
+  new_password: '789456'
+  repeat_password: '789456'
+  assert_database_data: '789456'
+
+- student_number: '888888888883'
+  login_password: '123'
+  new_password: '999999'
+  repeat_password: '999999'
+  assert_database_data: '999999'
+
+- student_number: '888888888884'
+  login_password: '123'
+  new_password: '777888999'
+  repeat_password: '777888999'
+  assert_database_data: '777888999'
+

@@ -1,0 +1,147 @@
+{
+  "uid" : "79e4efdae1a709a7",
+  "name" : "二级优先级",
+  "fullName" : "TestSuits.chandao.p01_http_cd.test_http_cd.TestDashboardPage#test_add_backlog",
+  "historyId" : "8d90c889a44c84825f4c52bb8019325c",
+  "time" : {
+    "start" : 1673876224967,
+    "stop" : 1673876225222,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1673876222274,
+      "stop" : 1673876222438,
+      "duration" : 164
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "init_login",
+    "time" : {
+      "start" : 1673876224710,
+      "stop" : 1673876224966,
+      "duration" : 256
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c86a92e8b75304e5",
+      "name" : "log",
+      "source" : "c86a92e8b75304e5.txt",
+      "type" : "text/plain",
+      "size" : 5394
+    }, {
+      "uid" : "45b11d5c84951527",
+      "name" : "stdout",
+      "source" : "45b11d5c84951527.txt",
+      "type" : "text/plain",
+      "size" : 48
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "init_login::0",
+    "time" : {
+      "start" : 1673876225224,
+      "stop" : 1673876225466,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "仪表盘模块"
+  }, {
+    "name" : "story",
+    "value" : "添加待办接口"
+  }, {
+    "name" : "epic",
+    "value" : "禅道系统"
+  }, {
+    "name" : "tag",
+    "value" : "add_backlog"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init_login')"
+  }, {
+    "name" : "tag",
+    "value" : "DashboardPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuits.chandao.p01_http_cd"
+  }, {
+    "name" : "suite",
+    "value" : "test_http_cd"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDashboardPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-3QQQGHI8"
+  }, {
+    "name" : "thread",
+    "value" : "20672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuits.chandao.p01_http_cd.test_http_cd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'date': datetime.date(2023, 1, 6), 'priorityL': 2, 'name': '名称2', 'start_time': '12:00', 'end_time': '13:00'}"
+  }, {
+    "name" : "title",
+    "value" : "'二级优先级'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "DashboardPage", "@pytest.mark.usefixtures('init_login')", "add_backlog" ]
+  },
+  "source" : "79e4efdae1a709a7.json",
+  "parameterValues" : [ "{'date': datetime.date(2023, 1, 6), 'priorityL': 2, 'name': '名称2', 'start_time': '12:00', 'end_time': '13:00'}", "'二级优先级'" ]
+}

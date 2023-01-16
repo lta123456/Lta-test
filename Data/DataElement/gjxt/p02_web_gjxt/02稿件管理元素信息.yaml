@@ -1,0 +1,40 @@
+article: # 稿件管理-新增稿件
+  add_gj_btn: ['xpath', './/form[@name="_15_fm"]/div[3]/input[@type="button"]']
+  gj_title_input: ['id', '_15_title']
+  add_iframe: ['id', "_15_editor"]
+  gj_content_input: ['id', 'textArea']
+  gj_commit_btn: ['xpath', './/input[@type="submit" and @value="保存并返回"]']
+  assert_hint: ['class name', 'portlet-msg-success']
+  select_input: ['id', 'toggle_id_journal_article_searchkeywords']
+  select_btn: ['xpath', './/input[@type="submit"]']
+  assert_add_title: ['xpath', './/div[@class="results-grid"]/table/tbody/tr[2]/td[3]/a']
+  assert_add_state: ['xpath', './/div[@class="results-grid"]/table/tbody/tr[2]/td[5]/a']
+
+del_gj: # 稿件管理-删除稿件
+  select_input: ['id', 'toggle_id_journal_article_searchkeywords']
+  select_btn: ['xpath', './/input[@type="submit"]']
+  check_box: ['name', '_15_allRowIds']
+  delete_btn: ['xpath', './/form[@name="_15_fm"]/input[@value="删除"]']
+  first_gj_title: ['xpath', './/div[@class="results-grid"]/table/tbody/tr[2]/td[3]/a']
+  assert_select_is_null: ['xpath', './/table[@class="taglib-search-iterator"]/tbody/tr[2]/td']
+
+alter_gj: # 稿件管理-修改稿件
+  select_btn: ['xpath', './/input[@type="submit"]'] # 查询稿件按钮
+  first_gj_number: ['xpath', './/table[@class="taglib-search-iterator"]/tbody/tr[2]/td[2]/a'] # 第一条稿件编号按钮
+  gj_title_input: ['id', '_15_title'] # 稿件标题输入框
+  gj_content_iframe: ['id', "_15_editor"] # 稿件内容iframe
+  gj_content_input: ['id', 'textArea'] # 稿件内容输入框
+  gj_commit_btn: ['xpath', './/input[@type="submit" and @value="保存并返回"]'] # 稿件保存按钮
+  first_gj_title: ['xpath', './/div[@class="results-grid"]/table/tbody/tr[2]/td[3]/a'] # 第一条稿件的标题
+  first_gj_state: ['xpath', './/div[@class="results-grid"]/table/tbody/tr[2]/td[5]/a'] # 第一条稿件的状态
+
+select_gj: # 稿件管理-查询稿件
+  select_input: ['id', 'toggle_id_journal_article_searchkeywords'] # 查询输入框
+  select_btn: [ 'xpath', './/input[@type="submit"]' ] # 查询稿件按钮
+  first_gj_title: ['xpath', './/div[@class="results-grid"]/table/tbody/tr[2]/td[3]/a'] #
+  first_gj_number: ['xpath', './/table[@class="taglib-search-iterator"]/tbody/tr[2]/td[2]/a'] # 第一条稿件编号
+
+
+
+
+

@@ -1,0 +1,14 @@
+- folder_name: '下载文件测试用例-文件夹名称01'
+  folder_content: '下载文件测试用例-文件夹描述01'
+  file_name: '下载文件测试用例-文件重命名的名称01.txt'
+  file_spec: '下载文件测试用例-文件说明01'
+
+- folder_name: '下载文件测试用例-文件夹名称02'
+  folder_content: '下载文件测试用例-文件夹描述02'
+  file_name: '下载文件测试用例-文件重命名的名称02.txt'
+  file_spec: '下载文件测试用例-文件说明02'
+
+- folder_name: '下载文件测试用例-文件夹名称03'
+  folder_content: '下载文件测试用例-文件夹描述03'
+  file_name: '下载文件测试用例-文件重命名的名称03.txt'
+  file_spec: '下载文件测试用例-文件说明03'

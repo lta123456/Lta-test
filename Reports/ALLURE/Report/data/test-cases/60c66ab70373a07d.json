@@ -1,0 +1,111 @@
+{
+  "uid" : "60c66ab70373a07d",
+  "name" : "test_login[case_data1]",
+  "fullName" : "TestSuits.chandao.p01_http_cd.test_http_cd.TestLogin#test_login",
+  "historyId" : "d4930e763697ca9f7c7fa4d1d2011297",
+  "time" : {
+    "start" : 1673876223041,
+    "stop" : 1673876223606,
+    "duration" : 565
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1673876222274,
+      "stop" : 1673876222438,
+      "duration" : 164
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8df31fdaaf761e84",
+      "name" : "log",
+      "source" : "8df31fdaaf761e84.txt",
+      "type" : "text/plain",
+      "size" : 3941
+    }, {
+      "uid" : "bc201a29e6eec245",
+      "name" : "stdout",
+      "source" : "bc201a29e6eec245.txt",
+      "type" : "text/plain",
+      "size" : 47
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "epic",
+    "value" : "禅道系统"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "login_login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuits.chandao.p01_http_cd"
+  }, {
+    "name" : "suite",
+    "value" : "test_http_cd"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-3QQQGHI8"
+  }, {
+    "name" : "thread",
+    "value" : "20672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuits.chandao.p01_http_cd.test_http_cd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'username': 'demo', 'password': '123456', 'assert_data': {'result': 'success', 'locate': '/'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "login_login", "login" ]
+  },
+  "source" : "60c66ab70373a07d.json",
+  "parameterValues" : [ "{'username': 'demo', 'password': '123456', 'assert_data': {'result': 'success', 'locate': '/'}}" ]
+}
