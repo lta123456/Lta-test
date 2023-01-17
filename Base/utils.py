@@ -7,7 +7,7 @@ from configparser import RawConfigParser
 def read_config_ini(ConfigPath):
     '''读取配置文件.ini'''
     config = RawConfigParser()
-    config.read(ConfigPath)
+    config.read(ConfigPath, encoding='gbk')
     # 返回读取到的内容
     return config
 
