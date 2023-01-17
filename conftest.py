@@ -75,7 +75,7 @@ def driver(request):
 
 def pytest_html_results_summary(prefix, summary, postfix):
     '''html测试报告 Summary(摘要)部分在此设置'''
-    prefix.extend([html.p("自动化测试工程师：李泰昂"),
+    prefix.extend([html.p("FFFFS"),
                    html.p('fewff')])
 
 # 钩子函数，修改HTML报告的结果
