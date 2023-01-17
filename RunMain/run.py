@@ -1,6 +1,7 @@
 # encoding:utf-8
 import sys
 import os
+import time
 # 获取项目根路径
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 将项目根路径添加到环境变量中去
@@ -37,6 +38,7 @@ def run_main():
         # 生产测试报告
         os.system('allure generate {} -o {} --clean'.format(BP.Allure_Result, BP.Allure_Report))
         # 清空测试报告数据文件夹里的文件
+        time.sleep(5)
         file_all_del(BP.Allure_Result)
     elif run_config['REPORT_TYPE'] == 'HTML':
         # html报告路径
