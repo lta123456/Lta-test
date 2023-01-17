@@ -8,7 +8,7 @@ class BasePath:
     # 配置文件夹的目录
     Config_Dir = os.path.join(project_root, 'Config')
     # 配置文件的目录
-    Config_File = os.path.join(Config_Dir, '配置文件.ini')
+    Config_File = os.path.join(Config_Dir, 'config.ini')
     # 数据文件的目录
     Data_Dir = os.path.join(project_root, 'Data')
     Data_Driver_Dir = os.path.join(Data_Dir, 'DataDriver')
