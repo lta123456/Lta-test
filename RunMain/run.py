@@ -33,13 +33,14 @@ def run_main():
 
     # 获取用例的位置
     if run_config['REPORT_TYPE'] == 'ALLURE':
+        # 清空测试报告数据文件夹里的文件
+        file_all_del(BP.Allure_Result)
         # 命令行生产allur测试报告数据
-        pytest.main(['-v', '--alluredir={}'.format(BP.Allure_Result), test_case])
+        pytest.main(['-v', f'--alluredir={BP.Allure_Result}', test_case])
         # 生产测试报告
         os.system('allure generate {} -o {} --clean'.format(BP.Allure_Result, BP.Allure_Report))
-        # 清空测试报告数据文件夹里的文件
-        time.sleep(5)
-        file_all_del(BP.Allure_Result)
+
+
     elif run_config['REPORT_TYPE'] == 'HTML':
         # html报告路径
         report_path = os.path.join(BP.HTML_Dir, 'auto_reports.html')
