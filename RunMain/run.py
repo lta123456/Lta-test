@@ -1,6 +1,7 @@
 # encoding:utf-8
 import sys
 import os
+
 # 获取项目根路径
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 将项目根路径添加到环境变量中去
@@ -18,12 +19,14 @@ gm = GlobalManager()
 gm.set_value('CONFIG_INFO', config)
 gm.set_value('DATA_DRIVER_PATH', os.path.join(BP.Data_Driver_Dir, config['项目运行设置']['DATA_DRIVER_TYPE']))
 
+
 def run_main():
     '''运行入口'''
     run_config = gm.get_value('CONFIG_INFO')['项目运行设置']
 
     if run_config['TEST_CLASS']:
-        test_case = os.path.join(BP.TEST_SUIT_DIR, run_config['TEST_PROJECT'], run_config['TEST_CASE_NAME']) + '::' + run_config['TEST_CLASS']
+        test_case = os.path.join(BP.TEST_SUIT_DIR, run_config['TEST_PROJECT'], run_config['TEST_CASE_NAME']) + '::' + \
+                    run_config['TEST_CLASS']
     else:
         if run_config['TEST_CASE_NAME']:
             test_case = os.path.join(BP.TEST_SUIT_DIR, run_config['TEST_PROJECT'], run_config['TEST_CASE_NAME'])
@@ -64,7 +67,6 @@ def run_main():
         print('邮件发送成功，测试报告类型：{}'.format(run_config['REPORT_TYPE']))
     else:
         print('不发送邮件')
-
 
 
 if __name__ == '__main__':
