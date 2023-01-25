@@ -22,5 +22,4 @@ args = parser.parse_args()
 
 config['项目运行设置']['AUTO_TYPE'] = args.AUTO_TYPE
 #
-
-
+#
