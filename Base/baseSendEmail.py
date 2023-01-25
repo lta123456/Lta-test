@@ -19,7 +19,11 @@ class HandleEmail:
         # 发送方email
         self.send_email = config['send_email']
         # 接收方email 如果设置为列表格式，则为群发
-        self.receiver = eval(config['receiver'])
+        # 防止转换后依然还是字符串
+        if isinstance(eval(config['receiver']), str):
+            self.receiver = eval(eval(config['receiver']))
+        else:
+            self.receiver = eval(config['receiver'])
         # 授权码
         self.psw = config['pwd']
         # 主题 格式字符串
